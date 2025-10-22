@@ -64,3 +64,22 @@ body{
 .main-nav a:focus{
     color: var(--acent);
 }
+
+.hero{
+    background: linear-gradient(180deg, rgba(0,102,204,00.05));
+    padding: 2rem 0;
+}
+
+.hero-inner{
+    text-align: center;
+}
+.hero .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    background: var(--brand);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
